@@ -43,9 +43,7 @@ def get_average_color(colors):
   num_colors = len(colors)
   if num_colors == 0:
     return (0, 0, 0)
-  r = 0
-  g = 0
-  b = 0
+  r, g, b = 0, 0, 0
   for color in colors:
     r += color[0]
     g += color[1]
